@@ -390,7 +390,7 @@ footer p{
 @media screen and (max-width: 1200px) {
     
     nav{
-        padding: 20px 40px;
+        padding: 20px 30px;
     }
 
     .main{
@@ -558,12 +558,15 @@ footer p{
 
     nav .logo{
         display: none;
+        
     }
-
+    nav .nav-links{
+     gap: 10px;
+    }
     .main{
         flex-direction: column;
         justify-content: space-around;
-        margin: 40px 0;
+        margin: 20px 0;
         height: auto;
     }
 
